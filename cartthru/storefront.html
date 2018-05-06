@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Apna Farm</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/common.js"></script>
+
+<link rel="stylesheet" type="text/css" href="styles/af.css">
+
+</head>
+
+<body>
+
+<div class="wrapper">
+	
+	<div class="row" style="max-width:798px; background-color:silver;margin-bottom:20px;">
+	    <div class="headercolumn1" style="padding-top:6px;width:15%;">
+	    	<a href="search.html" ><img src="images/back.png" ></a>
+	    </div>
+		<div class="headercolumn1" style="padding-top:6px;width:45%; text-align: center;">
+	    	<strong>ABC Grocery </strong><br> <i style="font-size: small">Ready in 25-40 mins</i>
+	    </div>
+	    <div class="headercolumn1" style="text-align:right; width:25%">
+	    	<form action="#">
+				<input style="" type="text" placeholder="&nbsp;" name="search">
+    		</form>    
+	    </div>
+	    <div class="headercolumn1" style="text-align:center; padding:10px 0px 0px 0px; width:15%;">
+	    	<a href="#"><img src="images/fav_icon.png" ></a>  
+	    </div>
+	</div>
+
+<div class="content">
+
+	<div class="section_title" style="width:100%;">
+		<strong>Produce</strong>
+	</div>
+	
+	<div class="divwrapscroll">	
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>  	
+	</div>	   
+	
+	<div class="section_title" style="width:100%;">
+		<strong>Meat</strong>
+	</div>
+	<div class="divwrapscroll">	
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>  	
+	</div>
+	
+	<div class="section_title" style="width:100%;">
+		<strong>Grains</strong>
+	</div>
+	<div class="divwrapscroll">	
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>  	
+	</div>
+	
+	<div class="section_title" style="width:100%;">
+		<strong>Drinks</strong>
+	</div>
+	<div class="divwrapscroll">	
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>
+		<div class="item-col">
+			<div class="item-coldivtitle" >
+				<div class="quantity" id="total"></div>
+				<div class="pcs"> pcs</div>
+				
+				<div class="dollar">$</div>
+				<div class="price" id="totalqty"></div>	
+			</div>
+			<div class="item-coldiv" onclick="location.href = 'itemdetail.html';"></div>
+			<div class="item-coldivtitlebottom">
+				
+				<div class="minusimg"><button id="minusbtn" value = "-1" class="minusimgbutton"></button></div>
+				<div class="plusimg"><button id="plusbtn" value = "1" class="plusimgbutton"></button></div>
+			</div>
+		</div>  	
+	</div>
+	
+	
+	
+	
+	
+	
+	
+</div>
+
+<!-- Navbar (sticky bottom) -->
+<div style="overflow-x:auto;">
+	<table class="navbar" id="myNavbar">
+		<tbody >
+	  		<tr>
+	    		<td >
+	    			<a href="index.html"><h2><img src="images/profile_btn.png"  class="buttoncenter"></h2></a>
+	    		</td>
+				<td>
+					<a href="main.html"><h2><img src="images/rewards_btn.png"  class="buttoncenter"></h2></a>
+	  			</td>
+	  			<td class="menuvisited">
+		  			<a href="search.html"><h2><img src="images/stores_btn.png"  class="buttoncenter"></h2></a>
+	    		</td>
+				<td>
+					<a href="shopcart.html"><h2><img src="images/cart_btn.png"  class="buttoncenter"></h2></a>
+	  			</td>
+	    	</tr>
+	    </tbody>
+	</table>
+</div>
+
+
+
+
+</div>
+<script>
+
+	
+
+/*
+	window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    header.classList.add("sticky");
+  } 
+}
+
+*/
+</script>
+</body>
+</html>
